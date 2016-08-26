@@ -2,4 +2,4 @@
 
 Discover patterns in Fibonacci binary sequence.
 
-![Example](docs/example.jpg)
+![Example](https://raw.githubusercontent.com/Dbastos1710/binary_fibonacci/master/docs/example.png)
