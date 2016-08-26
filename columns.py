@@ -49,4 +49,3 @@ y = line_patterns
 import matplotlib.pyplot as plt
 plt.bar(x, y, width=0.6)
 plt.show()
-
