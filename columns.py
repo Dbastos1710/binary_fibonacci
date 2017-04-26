@@ -45,7 +45,7 @@ line_patterns = get_first_digits_from_column(splited_binary_table, 4)
 x = np.arange(len(line_patterns))
 y = line_patterns
 
-# Plot Tabela Binária
+# Plot Tabela Binaria
 import matplotlib.pyplot as plt
 plt.bar(x, y, width=0.6)
 plt.show()

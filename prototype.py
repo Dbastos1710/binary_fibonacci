@@ -23,12 +23,12 @@ for bin_number in fib_list_bin:
 
 splited_binary_table = np.array(fib_list_bin_splited)
 
-# Plot Tabela Binária
+# Plot Tabela Binaria
 import matplotlib.pyplot as plt
 plt.imshow(splited_binary_table, interpolation='nearest')
 plt.show()
 
-# Gráfico Barra Zeros e Uns
+# Grafico Barra Zeros e Uns
 hist_one = [sum(x) for x in splited_binary_table]
 hist_zero = [101 - sum(x) for x in splited_binary_table]
 indices = list(range(len(hist_one)))
